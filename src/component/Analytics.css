@@ -1,0 +1,26 @@
+.analytics-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; 
+  }
+  
+  .analytics-item {
+    text-align: center;
+  }
+  
+  .analytics-item h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .analytics-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  

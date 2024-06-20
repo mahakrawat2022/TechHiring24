@@ -1,0 +1,35 @@
+.containerOne {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-grow: 1;
+    padding: 0 40px;
+    
+    }
+    
+    .div1, .div2, .div3 {
+    width: 21em;
+    height: 25em;
+    background-color: #fff;
+    box-shadow: 5px 5px 25px #0000005f;
+    padding: 10px 30px;
+    border-radius: 10px;
+    }
+    
+    h1,h4{
+        color:#0e387a;
+    }
+
+/*@media (max-width: 1200px) {
+    .containerOne {
+        height: 100%;
+        flex-direction: column;
+    }
+    .div1, .div2, .div3 {
+        max-width: 80%;
+        padding: 30px;
+    }
+}
+*/
